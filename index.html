@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p>Register</p>
+        <form id ="fRegister">
+        <input class="inputs" id="username" placeholder="Usuario" required autocomplete="off"><div></div>
+        <input class="inputs" id="password" placeholder="Contraseña" type="password" required><div></div>
+        <button type="submit" class="buttons" id="Register">Register</button>
+        </form>
+        <p id="alert"></p>
+    </div>
+
+    <div class="container">
+        <p>Login</p>
+        <form id ="fLogin">
+        <input class="inputs" id="usernamel" placeholder="Usuario" required autocomplete="off"><div></div>
+        <input class="inputs" id="passwordl" placeholder="Contraseña" type="password" required><div></div>
+        <button type="submit" class="buttons" id="Login">Login</button>
+        </form>
+        <p id="lalert"></p>
+    </div>
+    <button class="buttons" id="eraseall">Borrar base de datos</button>
+<script src=registro.js></script>
+</body>
+</html>

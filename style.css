@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+
+.inputs{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+}
+
+.container{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    background-color: rgba(121, 189, 248, 0.575);
+    border-radius: 5px;
+    width: 200px;
+    margin: 50px auto;
+}
+
+.buttons{
+    margin: 10px;
+    background-color: rgba(4, 4, 133, 0.226);
+    color: white;
+    border-radius: 5px;
+}
